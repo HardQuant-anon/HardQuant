@@ -2,7 +2,7 @@
 
 This repository contains the code corresponding to the **HardQuant** submission to **ICML 2026**.
 
-At the top level, the workspace is organized as:
+The workspace is organized as:
 
 - `HardQuant/` — **main codebase** for HardQuant fine-tuning and experiments (core training pipelines live here)
 - `smoothquant-compare/` — SmoothQuant baseline code
@@ -14,7 +14,7 @@ At the top level, the workspace is organized as:
 
 ### 1) Environment setup
 
-Create an environment (conda/venv) and install dependencies:
+Install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -30,7 +30,7 @@ Most runs assume Hugging Face model access (e.g., Llama-3 weights). Make sure yo
 huggingface-cli login
 ```
 
-(Alternatively set `HF_TOKEN` in your environment.)
+(or set `HF_TOKEN` in your environment.)
 
 ## Fine-tuning (main entrypoint)
 
