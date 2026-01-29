@@ -1,0 +1,6 @@
+[2026-01-13 15:54:08 root] (main.py 382): INFO === SWEEP RUN: letlr_1e-04_lwclr_1e-04 ===
+[2026-01-13 15:54:08 root] (main.py 383): INFO Namespace(model='meta-llama/Meta-Llama-3-8B', cache_dir='./cache', output_dir='./log/llama-8b-w4a4', save_dir=None, resume=None, real_quant=False, calib_dataset='wikitext103', nsamples=128, batch_size=1, seed=2, tasks='', eval_ppl=True, num_fewshot=0, wbits=4, abits=4, group_size=None, alpha=0.5, let_lr=0.0001, lwc_lr=0.0001, wd=0, epochs=20, let=True, lwc=True, aug_loss=False, symmetric=False, disable_zero_point=False, a_dynamic_method='per_token', w_dynamic_method='per_channel', limit=-1, multigpu=False, deactive_amp=False, attn_implementation='eager', net=None, act_scales=None, act_shifts=None, eval_quant_before_ft=False, let_lr_grid='1e-4,1e-3,1e-2', lwc_lr_grid='1e-4,1e-3,1e-2')
+[2026-01-13 15:54:31 root] (main.py 461): INFO load calibration from ./cache/dataloader_Meta_wikitext103_train_seqlen2048_ns128_seed2_meta-llama_Meta-Llama-3-8B.pt
+[2026-01-13 15:54:31 root] (main.py 488): INFO === start quantization ===
+[2026-01-13 15:54:31 root] (omniquant.py 50): INFO Starting ...
+[2026-01-13 15:54:37 root] (omniquant.py 193): INFO === Start quantize layer 0 ===

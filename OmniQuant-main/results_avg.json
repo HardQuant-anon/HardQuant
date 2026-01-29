@@ -1,0 +1,18 @@
+{
+  "in_domain": {
+    "fp32_ppl": 40.20303291687101,
+    "fp32_fq_ppl": 9292.066469545633,
+    "fp32_ft_ppl": 51.779461149233775,
+    "fakequant_ft_ppl": 2684.89728157392
+  },
+  "unseen": {
+    "fp32_ppl": 42.26377747939547,
+    "fp32_fq_ppl": 8290.031036295777,
+    "fp32_ft_ppl": 59.31640508499768,
+    "fakequant_ft_ppl": 3117.2433405626907
+  },
+  "nblocks_in": 11,
+  "tokens_in": 2816,
+  "nblocks_unseen": 78,
+  "tokens_unseen": 19968
+}

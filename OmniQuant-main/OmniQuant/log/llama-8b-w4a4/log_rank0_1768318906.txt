@@ -1,0 +1,4 @@
+[2026-01-13 15:41:46 root] (main.py 258): INFO Namespace(model='meta-llama/Meta-Llama-3-8B', cache_dir='./cache', output_dir='./log/llama-8b-w4a4', save_dir=None, resume=None, real_quant=False, calib_dataset='wikitext2', nsamples=128, batch_size=1, seed=2, tasks='', eval_ppl=True, num_fewshot=0, wbits=4, abits=4, group_size=None, alpha=0.5, let_lr=0.005, lwc_lr=0.01, wd=0, epochs=20, let=True, lwc=True, aug_loss=False, symmetric=False, disable_zero_point=False, a_dynamic_method='per_token', w_dynamic_method='per_channel', limit=-1, multigpu=False, deactive_amp=False, attn_implementation='eager', net=None, act_scales=None, act_shifts=None)
+[2026-01-13 15:41:53 root] (main.py 324): INFO === start quantization ===
+[2026-01-13 15:42:07 root] (omniquant.py 50): INFO Starting ...
+[2026-01-13 15:42:10 root] (omniquant.py 193): INFO === Start quantize layer 0 ===
